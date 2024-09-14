@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to detect fire in images using a Convolutional Neural Network (CNN). The workflow includes data preparation, image preprocessing with custom masks, model creation, training, and evaluation.
+This project aims to detect fire in images using a Convolutional Neural Network (CNN). To improve the accuracy and reduce the training time of the model, different features of the images are extracted using cv2 library, and fed into a multi-input CNN.
 
 ## Components
 
